@@ -1,0 +1,99 @@
+{
+  "activeEnv":"Development",
+  "EnableVerboseReporting": "true",
+  "EnableExtentReport": "true",
+  "EnableReportPortal": "false",
+  "EnableAllureReport": "true",
+  "Browser": "chrome",
+  "headless": "false",
+  "incognito": "false",
+  "ActivePlatform": "",
+  "ParallelFeatures": "false",
+  "ParallelScenarios": "false",
+  "EnableRetryOnFailure": "false",
+  "ThreadCount": "3",
+  "AssertionType": "Hard",
+  "RetryCount": "2",
+  "RetryTime": "2000",
+  "browserPath": "",
+  "selfHeal": "false",
+  "connectTimeout": "20000",
+  "readTimeout": "20000",
+  "defaultInputFormat": "excel",
+  "inputFormat":"excel",
+  "MobileActivePlatform": "",
+  "activeAppender": "both",
+  "logLevel": "high",
+  "mobileDevice": "android",
+  "defaultPerformanceReportName": "TestReport",
+  "reportPortal_url": "http://localhost:8081/ui/#login",
+  "license_key": "ezsgi2xlgm9000:07685fa6-2a07-410e-acf9-6a92750af19b",
+  "waitTimeOut": "10",
+  "SauceLabs": {
+    "Username": "Username of sauceLabs",
+    "Password": "Password of SauceLabs",
+    "ExcelKey": "Remote.sauce"
+  },
+  "BrowserStack": {
+    "Username": "Username of BrowserStack",
+    "Password": "Password of BrowserStack",
+    "ExcelKey": "Remote.sauce"
+  },
+  "AWS": {
+    "Username": "Username of AWS",
+    "Password": "Password of AWS",
+    "ExcelKey": "Remote.aws",
+    "Arn": "ARN key of AWS"
+  },
+  "DataBaseConnectivity": {
+    "DB": "postgresql",
+    "connectionString": "jdbc:postgresql://localhost:5433/DB",
+    "Username": "postgres",
+    "Password": "root"
+  },
+  "Environment": {
+    "Development": {
+      "UAT": {
+        "baseURI": "https://github.com/"
+      },
+      "XML": {
+        "baseURI": "https://www.w3schools.com/xml/tempconvert.asmx"
+      },
+      "FileUpload": {
+        "baseURI": "https://the-internet.herokuapp.com/upload"
+      },
+      "Second": {
+        "baseURI": "https://development.github.com"
+      },
+      "GoogleApi": {
+        "baseURI": "https://rahulshettyacademy.com"
+      },
+      "Postman": {
+        "baseURI": "https://postman-echo.com"
+      },
+      "default": {
+        "baseURI": "https://postman-echo.com"
+      }
+    },
+    "Production": {
+      "first": {
+        "baseURI": "https://rahulshettyacademy.com"
+      },
+      "Second": {
+        "baseURI": "https://github.com"
+      },
+      "Third": {
+        "baseURI": "https://github.com/"
+      },
+      "GoogleApi": {
+        "baseURI": "https://rahulshettyacademy.com"
+      },
+      "Postman": {
+        "baseURI": "https://postman-echo.com"
+      },
+      "default": {
+        "baseURI": "https://rahulshettyacademy.com"
+      }
+    }
+  }
+}
